@@ -286,7 +286,7 @@
 					var centroidZ = z0 + (bDepth / 2); //+ object.position.z;			
 
 					var geometry = new THREE.BoxBufferGeometry(bWidth + 0.1, bHeight + 0.1, bDepth + 0.1);
-					var img = new THREE.TextureLoader().load('/kulagin/mtl/add.png');
+					var img = new THREE.TextureLoader().load('../mtl/add.png');
 					img.repeat.set(1.5, 1.5);
 					img.offset.set(-0.25, -0.25);
 
